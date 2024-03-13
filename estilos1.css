@@ -1,0 +1,21 @@
+.parte1 {
+  background-color: #FFFF33;
+}
+.parte2 {
+  background-color: #335BFF;
+}
+.parte3 {
+  background-color: #FF3333;
+}
+.texto {
+  color: #80FF33;
+  border-style: groove;
+}
+.texto1 {
+  color: #80FF33;
+  border-style: groove;
+  font-size: 25px;
+}
+.imagen img {
+  width: 20%;
+}

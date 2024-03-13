@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--! validar por .dtd-->
+<!DOCTYPE pais SYSTEM "ecuador.dtd">
+<pais xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ecuador.xsd">
+  <nombre>Ecuador</nombre>
+  <poblacion>17.510.643 de habitantes</poblacion>
+  <continente>America</continente>
+  <nombreCapital>Quito</nombreCapital>
+  <cordenadasGpsCapital>
+    <latitud>-0.22985</latitud>
+    <altitud>-78.52495</altitud>
+  </cordenadasGpsCapital>
+  <fotografias>
+    <nombreFoto>Islas Galápagos</nombreFoto>
+    <descripcion>Las islas Galápagos son un archipiélago volcánico del océano Pacífico. Es conocido como uno de los destinos más famosos del mundo para la observación de fauna. Es una provincia de Ecuador y se encuentra a unos 1,000 km desde sus costas. Su terreno aislado alberga una diversidad de especies animales y vegetales, muchas de ellas exclusivas. Charles Darwin lo visitó en 1835 y su observación de las especies de Galápagos inspiró posteriormente su teoría de la evolución.</descripcion>
+    <url>https://viajes.nationalgeographic.com.es/a/islas-galapagos-para-darwins-contemporaneos_14468</url>
+  </fotografias>
+  <fotografias>
+    <nombreFoto>El Chimborazo</nombreFoto>
+    <descripcion>El Chimborazo es un estratovolcán potencialmente activo, situado en el centro de Ecuador, en la Provincia de Chimborazo.</descripcion>
+    <url>https://es.wikipedia.org/wiki/Volc%C3%A1n_Chimborazo#/media/Archivo:Volc%C3%A1n_Chimborazo_desde_Riobamba.jpg</url>
+  </fotografias>
+</pais>

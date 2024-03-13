@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises SYSTEM "paises.dtd">
+<paises>
+  <pais id="ID1">
+    <nombre>Ecuador</nombre>
+    <continente>América</continente>
+    <capital>Quito</capital>
+    <superficie>256.370 km2</superficie>
+    <poblacion>17.510.643 de habitantes</poblacion>
+    <ciudades>
+      <ciudad>Guayaquil</ciudad>
+      <ciudad>Ambato</ciudad>
+      <ciudad>Cuenca</ciudad>
+      <ciudad>Manta</ciudad>
+    </ciudades>
+    <lenguas>
+      <lengua>Quichua</lengua>
+      <lengua>Español</lengua>
+      <lengua>Awapit</lengua>
+    </lenguas>
+    <religiones>
+      <religion>Católicos</religion>
+      <religion>Evangélicos</religion>
+    </religiones>
+    <moneda>Dolar estadounidense</moneda>
+  </pais>
+    <pais id="ID2">
+    <nombre>Australia</nombre>
+    <continente>Oceanía</continente>
+    <capital>Canberra</capital>
+    <superficie>7,69 km2</superficie>
+    <poblacion>24,8 millones de habitantes</poblacion>
+    <ciudades>
+      <ciudad>Sídney</ciudad>
+      <ciudad>Melbourne</ciudad>
+      <ciudad>Brisbane</ciudad>
+      <ciudad>Perth</ciudad>
+      <ciudad>Adelaide</ciudad>
+    </ciudades>
+    <lenguas>
+      <lengua>Inglés</lengua>
+      <lengua>Mandarín</lengua>
+      <lengua>Árabe</lengua>
+    </lenguas>
+    <religiones>
+      <religion>Católicos</religion>
+      <religion>Budismo</religion>
+      <religion>Hinduismo</religion>
+    </religiones>
+    <moneda>Dolar australiano</moneda>
+  </pais>
+</paises>

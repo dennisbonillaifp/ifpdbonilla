@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <!-- Definición de elementos hoja -->
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="poblacion" type="xs:string"/>
+  <xs:element name="continente" type="xs:string"/>
+  <xs:element name="nombreCapital" type="xs:string"/>
+  <xs:element name="latitud" type="xs:decimal"/>
+  <xs:element name="altitud" type="xs:decimal"/>
+  <xs:element name="nombreFoto" type="xs:string"/>
+  <xs:element name="descripcion" type="xs:string"/>
+  <xs:element name="url" type="xs:string"/>
+  <!-- Definición de elementos complejos -->
+  <xs:element name="cordenadasGpsCapital">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="latitud" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="altitud" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="fotografias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreFoto" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element ref="descripcion" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element ref="url" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="poblacion" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="continente" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="nombreCapital" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="cordenadasGpsCapital" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="fotografias" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

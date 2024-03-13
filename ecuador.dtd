@@ -1,0 +1,12 @@
+<!ELEMENT pais (nombre, poblacion, continente, nombreCapital, cordenadasGpsCapital, fotografias+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT nombreCapital (#PCDATA)>
+<!ELEMENT cordenadasGpsCapital (latitud, altitud)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT fotografias (nombreFoto, descripcion, url)>
+<!ELEMENT nombreFoto (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
